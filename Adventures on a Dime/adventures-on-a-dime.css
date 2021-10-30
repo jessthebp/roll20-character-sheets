@@ -15,7 +15,7 @@ font-family: 'Alegreya Sans', sans;
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
-html {
+.charsheet {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
@@ -27,7 +27,7 @@ html {
  * Remove the margin in all browsers.
  */
 
-body {
+.charsheet {
   margin: 0;
 }
 
@@ -35,7 +35,7 @@ body {
  * Render the `main` element consistently in IE.
  */
 
-main {
+.charsheet main {
   display: block;
 }
 
@@ -44,7 +44,7 @@ main {
  * `article` contexts in Chrome, Firefox, and Safari.
  */
 
-h1 {
+.charsheet h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
@@ -57,7 +57,7 @@ h1 {
  * 2. Show the overflow in Edge and IE.
  */
 
-hr {
+.charsheet hr {
   box-sizing: content-box; /* 1 */
   height: 0; /* 1 */
   overflow: visible; /* 2 */
@@ -68,7 +68,7 @@ hr {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 
-pre {
+.charsheet pre {
   font-family: monospace, monospace; /* 1 */
   font-size: 1em; /* 2 */
 }
@@ -80,7 +80,7 @@ pre {
  * Remove the gray background on active links in IE 10.
  */
 
-a {
+.charsheet a {
   background-color: transparent;
 }
 
@@ -89,7 +89,7 @@ a {
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
 
-abbr[title] {
+.charsheet abbr[title] {
   border-bottom: none; /* 1 */
   text-decoration: underline; /* 2 */
   text-decoration: underline dotted; /* 2 */
@@ -99,7 +99,7 @@ abbr[title] {
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
 
-b,
+.charsheet b,
 strong {
   font-weight: bolder;
 }
@@ -109,7 +109,7 @@ strong {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 
-code,
+.charsheet code,
 kbd,
 samp {
   font-family: monospace, monospace; /* 1 */
@@ -120,7 +120,7 @@ samp {
  * Add the correct font size in all browsers.
  */
 
-small {
+.charsheet small {
   font-size: 80%;
 }
 
@@ -129,7 +129,7 @@ small {
  * all browsers.
  */
 
-sub,
+.charsheet sub,
 sup {
   font-size: 75%;
   line-height: 0;
@@ -137,11 +137,11 @@ sup {
   vertical-align: baseline;
 }
 
-sub {
+.charsheet sub {
   bottom: -0.25em;
 }
 
-sup {
+.charsheet sup {
   top: -0.5em;
 }
 
@@ -152,7 +152,7 @@ sup {
  * Remove the border on images inside links in IE 10.
  */
 
-img {
+.charsheet img {
   border-style: none;
 }
 
@@ -164,7 +164,7 @@ img {
  * 2. Remove the margin in Firefox and Safari.
  */
 
-button,
+.charsheet button,
 input,
 optgroup,
 select,
@@ -180,7 +180,7 @@ textarea {
  * 1. Show the overflow in Edge.
  */
 
-button,
+.charsheet button,
 input {
   /* 1 */
   overflow: visible;
@@ -191,7 +191,7 @@ input {
  * 1. Remove the inheritance of text transform in Firefox.
  */
 
-button,
+.charsheet button,
 select {
   /* 1 */
   text-transform: none;
@@ -201,7 +201,7 @@ select {
  * Correct the inability to style clickable types in iOS and Safari.
  */
 
-button,
+.charsheet button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
@@ -212,7 +212,7 @@ button,
  * Remove the inner border and padding in Firefox.
  */
 
-button::-moz-focus-inner,
+.charsheet button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
 [type="submit"]::-moz-focus-inner {
@@ -224,7 +224,7 @@ button::-moz-focus-inner,
  * Restore the focus styles unset by the previous rule.
  */
 
-button:-moz-focusring,
+.charsheet button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
 [type="submit"]:-moz-focusring {
@@ -235,7 +235,7 @@ button:-moz-focusring,
  * Correct the padding in Firefox.
  */
 
-fieldset {
+.charsheet fieldset {
   padding: 0.35em 0.75em 0.625em;
 }
 
@@ -246,7 +246,7 @@ fieldset {
  *    `fieldset` elements in all browsers.
  */
 
-legend {
+.charsheet legend {
   box-sizing: border-box; /* 1 */
   color: inherit; /* 2 */
   display: table; /* 1 */
@@ -259,7 +259,7 @@ legend {
  * Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
 
-progress {
+.charsheet progress {
   vertical-align: baseline;
 }
 
@@ -267,7 +267,7 @@ progress {
  * Remove the default vertical scrollbar in IE 10+.
  */
 
-textarea {
+.charsheet textarea {
   overflow: auto;
 }
 
@@ -276,7 +276,7 @@ textarea {
  * 2. Remove the padding in IE 10.
  */
 
-[type="checkbox"],
+.charsheet [type="checkbox"],
 [type="radio"] {
   box-sizing: border-box; /* 1 */
   padding: 0; /* 2 */
@@ -286,7 +286,7 @@ textarea {
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
 
-[type="number"]::-webkit-inner-spin-button,
+.charsheet [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
@@ -296,7 +296,7 @@ textarea {
  * 2. Correct the outline style in Safari.
  */
 
-[type="search"] {
+.charsheet [type="search"] {
   -webkit-appearance: textfield; /* 1 */
   outline-offset: -2px; /* 2 */
 }
@@ -305,7 +305,7 @@ textarea {
  * Remove the inner padding in Chrome and Safari on macOS.
  */
 
-[type="search"]::-webkit-search-decoration {
+.charsheet [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
@@ -314,7 +314,7 @@ textarea {
  * 2. Change font properties to `inherit` in Safari.
  */
 
-::-webkit-file-upload-button {
+.charsheet::-webkit-file-upload-button {
   -webkit-appearance: button; /* 1 */
   font: inherit; /* 2 */
 }
@@ -326,7 +326,7 @@ textarea {
  * Add the correct display in Edge, IE 10+, and Firefox.
  */
 
-details {
+.charsheet details {
   display: block;
 }
 
@@ -334,7 +334,7 @@ details {
  * Add the correct display in all browsers.
  */
 
-summary {
+.charsheet summary {
   display: list-item;
 }
 
@@ -345,7 +345,7 @@ summary {
  * Add the correct display in IE 10+.
  */
 
-template {
+.charsheet template {
   display: none;
 }
 
@@ -353,11 +353,11 @@ template {
  * Add the correct display in IE 10.
  */
 
-[hidden] {
+.charsheet [hidden] {
   display: none;
 }
 
-.characterviewer label {
+.charsheet .characterviewer label {
   font-size: inherit;
 }
 
@@ -374,12 +374,12 @@ template {
 
 /* ========================================================================== */
 
-* {
+.charsheet * {
   box-sizing: border-box;
   font-family: "Alegreya Sans", sans;
 }
 
-h1,
+.charsheet h1,
 h2,
 h3,
 h4,
@@ -389,36 +389,36 @@ h6 {
   font-weight: 800;
 }
 
-label {
+.charsheet label {
   margin: 0;
 }
 
-h1 {
+.charsheet h1 {
   margin: 1.5rem 0 0.5rem;
   text-align: center;
 }
 
 /* Header */
 
-.header {
+.charsheet .header {
   display: grid;
   grid-gap: 8px;
   grid-template-columns: 3fr 4fr;
   padding: 20px 0px;
 }
 
-.header img {
+.charsheet .header img {
   max-height: 80px;
 }
 
-.header ul {
+.charsheet .header ul {
   position: relative;
   bottom: 0;
   align-self: end;
   margin: 0;
 }
 
-.header li {
+.charsheet .header li {
   text-align: right;
   list-style: none;
   color: #999;
@@ -427,30 +427,30 @@ h1 {
 
 /* Main Grid */
 
-.grid-two-columns,
+.charsheet .grid-two-columns,
 .jobs-and-features .grid-two-columns .repcontainer {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 5px;
 }
 
-.jobs-and-features .grid-two-columns {
+.charsheet .jobs-and-features .grid-two-columns {
   display: block;
 }
 
-.npc .grid-two-columns, .npc-info .grid-two-columns {
+.charsheet .npc .grid-two-columns, .npc-info .grid-two-columns {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 5px;
 }
 
-.npc .grid-two-columns {
+.charsheet .npc .grid-two-columns {
   display: block;
 }
 
 /* Standard Block Style */
 
-.outer-block {
+.charsheet .outer-block {
   background: black;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
@@ -459,13 +459,13 @@ h1 {
   margin-bottom: 10px;
 }
 
-.outer-block h2 {
+.charsheet .outer-block h2 {
   color: white;
   text-align: center;
   font-weight: 800;
 }
 
-.inner-bubble {
+.charsheet .inner-bubble {
   background: white;
   border: 2px solid black;
   border-radius: 15px;
@@ -473,11 +473,11 @@ h1 {
   padding: 4px 8px;
 }
 
-.inner-bubble label {
+.charsheet .inner-bubble label {
   margin: 5px;
 }
 
-.inner-bubble input {
+.charsheet .inner-bubble input {
   background: transparent;
   border: 0 none;
   border-bottom: 1px solid #000;
@@ -487,27 +487,27 @@ h1 {
   width: 100%;
 }
 
-.job input:last-of-type,
+.charsheet .job input:last-of-type,
 .feature-line:last-of-type input,
 .inventory input:last-of-type,
  {
   border-bottom: 0px;
 }
 
-.character-name {
+.charsheet .character-name {
   text-align: center;
 }
 
-.character-name input {
+.charsheet .character-name input {
   width: 20rem;
 }
 
-.inner-bubble input::placeholder {
+.charsheet .inner-bubble input::placeholder {
   font-style: italic;
   color: #666;
 }
 
-.inner-bubble textarea {
+.charsheet .inner-bubble textarea {
   border: 1px solid #ccc;
   box-sizing: border-box;
   width: calc(100% - 10px);
@@ -516,40 +516,40 @@ h1 {
 
 }
 
-.inline-header {
+.charsheet .inline-header {
   display: flex;
 }
 
-.inline-header h2 {
+.charsheet .inline-header h2 {
   padding: 0 5px 0 15px;
 }
 
-.inline-header .inner-bubble {
+.charsheet .inline-header .inner-bubble {
   width: 100%;
 }
 
-.inline-header .inner-bubble input {
+.charsheet .inline-header .inner-bubble input {
   border: 0 none;
   width: 100%;
 }
 
-.outer-block .split-header {
+.charsheet .outer-block .split-header {
   display: grid;
   grid-template-columns: 3fr 2fr;
 }
 
-.outer-block .split-header h2 {
+.charsheet .outer-block .split-header h2 {
   text-align: left;
   font-size: 1.6rem;
   margin: 5px 0 5px 8px;
 }
 
-.outer-block .split-header label,
+.charsheet .outer-block .split-header label,
 .outer-block .split-header h2 {
   line-height: 1.6;
 }
 
-.outer-block .split-header label {
+.charsheet .outer-block .split-header label {
   color: #999999;
   display: block;
   margin: 0.6rem 0 0 0;
@@ -558,11 +558,11 @@ h1 {
   font-size: 1.4rem;
 }
 
-.outer-block .split-header label span {
+.charsheet .outer-block .split-header label span {
   text-transform: uppercase;
 }
 
-.outer-block .split-header input {
+.charsheet .outer-block .split-header input {
   border: 0 none;
   border-radius: 15px;
   max-width: 3rem;
@@ -573,30 +573,30 @@ h1 {
 
 /* Attributes */
 
-.npc_attributes {
+.charsheet .npc_attributes {
    display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 5px;
 }
 
-.attributes {
+.charsheet .attributes {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 5px;
 }
 
-.attribute, .npc_attribute {
+.charsheet .attribute, .npc_attribute {
   padding-top: 6px;
 }
 
-.attribute h3, .npc_attribute h3 {
+.charsheet .attribute h3, .npc_attribute h3 {
   color: black;
   font-family: "Montserrat";
   font-weight: 800;
   text-align: center;
 }
 
-.attribute label, .npc_attribute label {
+.charsheet .attribute label, .npc_attribute label {
   border: 2px solid black;
   box-sizing: border-box;
   font-size: 1.5rem;
@@ -605,40 +605,40 @@ h1 {
   text-align: center;
 }
 
-.attribute label:first-of-type, .npc_attribute label:first-of-type {
+.charsheet .attribute label:first-of-type, .npc_attribute label:first-of-type {
   background-color: black;
   color: white;
   border-radius: 15px;
 }
 
-.attribute label:last-of-type, .npc_attribute label:last-of-type {
+.charsheet .attribute label:last-of-type, .npc_attribute label:last-of-type {
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   padding-top: 18px;
   margin-top: -18px;
 }
 
-.attribute input[readonly], .npc-attribute input[readonly]{
+.charsheet .attribute input[readonly], .npc-attribute input[readonly]{
   border: 0 none;
   font-style: italic;
   text-align: center;
   width: 100%;
 }
 
-.attribute select, .npc-attribute select {
+.charsheet .attribute select, .npc-attribute select {
   display: block;
   margin: 2px 0;
   width: 100%;
 }
 
-.ui-dialog .charsheet .attribute button[type="roll"]:first-of-type {
+.charsheet .ui-dialog .charsheet .attribute button[type="roll"]:first-of-type {
   display: block;
   margin: 5px auto;
   width: 3rem;
     font-size: 1.3em;
 
 }
-.ui-dialog .charsheet .attribute button[type="roll"] {
+.charsheet .ui-dialog .charsheet .attribute button[type="roll"] {
   display: inline-block;
   margin: 5px auto;
   width: 3rem;
@@ -649,23 +649,23 @@ h1 {
 
 /* Jobs and Features */
 
-input.job-or-feature-toggle ~ .job,
+.charsheet input.job-or-feature-toggle ~ .job,
 input.job-or-feature-toggle ~ .feature {
   display: none;
 }
 
-input.job-or-feature-toggle[value="feature"] ~ .feature,
+.charsheet input.job-or-feature-toggle[value="feature"] ~ .feature,
 input.job-or-feature-toggle[value="job"] ~ .job {
   display: block;
 }
 
-input[name="attr_job_or_feature"] ~ .feature,
+.charsheet input[name="attr_job_or_feature"] ~ .feature,
 input[name="attr_job_or_feature"] ~ .job
  {
   display: none;
 }
 
-.jobs-and-features select[name="attr_job_or_feature"] {
+.charsheet .jobs-and-features select[name="attr_job_or_feature"] {
   background: black;
   color: white;
   display: block;
@@ -677,34 +677,34 @@ input[name="attr_job_or_feature"] ~ .job
   width: 12rem;
 }
 
-.feature-line {
+.charsheet .feature-line {
   display: flex;
 }
 
-.feature-line select {
+.charsheet .feature-line select {
   flex-grow: 1;
   margin: 2px 5px 0 0;
   width: 35%;
   height: 2.4rem;
   padding: 0;
 }
-.job label{
+.charsheet .job label{
     float: left;
     padding: 4px 0px;  
     margin: 0px;
     width: 8%;
 }
 
-.job > input[type=text]  {
+.charsheet .job > input[type=text]  {
  width: 90%;   
 }
 
-.feature-line input {
+.charsheet .feature-line input {
   flex-grow: 2;
   width: calc(65% - 5px);
 }
 
-.job input:first-of-type {
+.charsheet .job input:first-of-type {
   font-family: "Alegreya Sans", sans;
   font-weight: 800;
   width: 100%
@@ -712,7 +712,7 @@ input[name="attr_job_or_feature"] ~ .job
 
 /* Rules */
 
-.rule h2 {
+.charsheet .rule h2 {
   border-bottom: 1px solid black;
   text-align: center;
   margin-bottom: 10px;
@@ -720,16 +720,16 @@ input[name="attr_job_or_feature"] ~ .job
   font-size: 1.8rem;
 }
 
-.rule p {
+.charsheet .rule p {
   margin: 0;
   text-indent: 2rem;
 }
 
-.rule p:first-of-type {
+.charsheet .rule p:first-of-type {
   text-indent: 0;
 }
 
-.session-without-skills {
+.charsheet .session-without-skills {
   display: grid;
   grid-gap: 5px;
   grid-template-columns: repeat(5, 1fr);
@@ -737,14 +737,14 @@ input[name="attr_job_or_feature"] ~ .job
   width: 145px;
 }
 
-.session-without-skills input[type="checkbox"] {
+.charsheet .session-without-skills input[type="checkbox"] {
   width: 25px;
   height: 25px;
 }
 
 /* Roll Templates */
 
-.rolltemplate-ability {
+.sheet-rolltemplate-ability {
   border: 2px solid black;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
@@ -752,21 +752,21 @@ input[name="attr_job_or_feature"] ~ .job
   color: white;
 }
 
-.rolltemplate-ability h1 {
+.sheet-rolltemplate-ability h1 {
   font-family: "Montserrat";
   color: white;
   font-size: 2rem;
   text-align: center;
 }
 
-.rolltemplate-ability .inner {
+.sheet-rolltemplate-ability .inner {
   background: white;
   border: 1px solid black;
   border-radius: 15px;
   color: black;
 }
 
-.rolltemplate-ability .row {
+.sheet-rolltemplate-ability .row {
   border-bottom: 1px solid black;
   display: grid;
   grid-template-columns: 3fr 4fr;
@@ -774,51 +774,51 @@ input[name="attr_job_or_feature"] ~ .job
   padding: 8px;
 }
 
-.rolltemplate-ability .row:last-of-type {
+.sheet-rolltemplate-ability .row:last-of-type {
   border-bottom: 0 none;
 }
 
-.rolltemplate-ability .row,
-.rolltemplate-ability .description p {
+.sheet-rolltemplate-ability .row,
+.sheet-rolltemplate-ability .description p {
   font-family: "Alegreya Sans", sans;
   font-size: 1.4rem;
 }
 
-.rolltemplate-ability .label {
+.sheet-rolltemplate-ability .label {
   color: #666;
   text-align: right;
 }
 
-.rolltemplate-ability .label:after {
+.sheet-rolltemplate-ability .label:after {
   content: ":";
 }
 
-.rolltemplate-ability .result {
+.sheet-rolltemplate-ability .result {
   font-weight: bold;
 }
 
-.rolltemplate-ability .result-success {
+.sheet-rolltemplate-ability .result-success {
   color: #3fb315;
 }
 
-.rolltemplate-ability .result-complication {
+.sheet-rolltemplate-ability .result-complication {
   color: #fc7312;
 }
 
-.rolltemplate-ability .result-hijinx {
+.sheet-rolltemplate-ability .result-hijinx {
   color: #b31515;
 }
 
-.rolltemplate-ability .description {
+.sheet-rolltemplate-ability .description {
   display: none; /* hack to only show the last description for crits */
   padding: 6px 12px 0;
 }
 
-.rolltemplate-ability .description:last-of-type {
+.sheet-rolltemplate-ability .description:last-of-type {
   display: block;
 }
 
-.character,
+.charsheet .character,
 .NPC,
 .making,
 .rules,
@@ -827,7 +827,7 @@ input[name="attr_job_or_feature"] ~ .job
 }
 
 /* show the selected tab */
-.tabstoggle[value="character"] ~ div.character,
+.charsheet .tabstoggle[value="character"] ~ div.character,
 .tabstoggle[value="NPC"] ~ div.NPC,
 .tabstoggle[value="making"] ~ div.making, 
 .tabstoggle[value="rules"] ~ div.rules,
@@ -836,42 +836,41 @@ input[name="attr_job_or_feature"] ~ .job
 }
 
 
-.tab-navigation {
+.charsheet .tab-navigation {
   margin: auto;
   width: 100%;
   border: 2px solid black;
   font-size: 1.2em;
   text-align: center;
 }
-.tab-navigation button{
+.charsheet .tab-navigation button{
     margin: auto;
     width: 19%;
     border: 1px;
 }
 
-
-.tab-navigation button:hover {
+.charsheet .tab-navigation button:hover {
   background-color: black; /* Green */
   color: white;
 }
 
-.tabstoggle[value="character"] ~ .tab-navigation > button:nth-child(1),
-.tabstoggle[value="NPC"] ~ .tab-navigation > button:nth-child(2),
-.tabstoggle[value="making"] ~ .tab-navigation > button:nth-child(3), 
-.tabstoggle[value="rules"] ~ .tab-navigation > button:nth-child(4),
-.tabstoggle[value="narrator"] ~ .tab-navigation > button:nth-child(5){
+.charsheet .tabstoggle[value="character"] ~ .tab-navigation > button:nth-child(1),
+.charsheet .tabstoggle[value="NPC"] ~ .tab-navigation > button:nth-child(2),
+.charsheet .tabstoggle[value="making"] ~ .tab-navigation > button:nth-child(3), 
+.charsheet .tabstoggle[value="rules"] ~ .tab-navigation > button:nth-child(4),
+.charsheet .tabstoggle[value="narrator"] ~ .tab-navigation > button:nth-child(5){
   background-color: black; /* Green */
   color: white;}
 
 
 
-button.blank-button.btn.ui-draggable:before {
+.charsheet button.blank-button.btn.ui-draggable:before {
   content: '';
   font-size: .5em;
 }
 
-                 
-.grow-wrap textarea {
+                  
+.charsheet .grow-wrap textarea {
   border: 1px solid #ccc;
   margin: 10px 5px 5px;
   position: absolute;
@@ -897,17 +896,17 @@ button.blank-button.btn.ui-draggable:before {
 	text-transform: inherit;
 
 }
-.notes .inline-header, .notes_npc .inline-header{
+.charsheet .notes .inline-header, .notes_npc .inline-header{
     display: block;
   
 }
-.grow-wrap span {
+.charsheet .grow-wrap span {
     visibility: hidden;
     white-space: pre-wrap;
     display: block;
 }
 
-.grow-wrap {
+.charsheet .grow-wrap {
   background: white;
   border: 2px solid black;
   border-radius: 15px;
@@ -921,27 +920,27 @@ button.blank-button.btn.ui-draggable:before {
  
 }
 
-.notes > h2, .notes-npc > h2 {
+.charsheet .notes > h2, .notes-npc > h2 {
       background-color: black;
     color: white;
     padding: .5em;
 }
 
-.training tr {
+.charsheet .training tr {
         border-bottom: 1px solid black;
     border-top: 1px solid black;
     width: 100%;
         padding-left: 4px;
 
 }
-.training th {
+.charsheet .training th {
   padding: 6px;  
 } 
-.training .inner-bubble input {
+.charsheet .training .inner-bubble input {
     border: 0 none;
     padding-left: 1em;
 }
 
-.training .inner-bubble checkbox {
+.charsheet .training .inner-bubble checkbox {
   column-gap: 4px;
 }
